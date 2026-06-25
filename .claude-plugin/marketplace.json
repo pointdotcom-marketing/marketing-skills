@@ -1,0 +1,24 @@
+{
+  "name": "point-marketing",
+  "description": "Internal Point marketing skills for Claude Code.",
+  "owner": {
+    "name": "Point Digital Finance"
+  },
+  "plugins": [
+    {
+      "name": "point-marketing",
+      "description": "Internal Point marketing skills for brand voice, copywriting, and content review.",
+      "author": {
+        "name": "Point Digital Finance"
+      },
+      "source": "./",
+      "repository": "https://github.com/pointdotcom-marketing/marketing-skills",
+      "keywords": [
+        "point",
+        "marketing",
+        "brand-voice",
+        "copywriting"
+      ]
+    }
+  ]
+}

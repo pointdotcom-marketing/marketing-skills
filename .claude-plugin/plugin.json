@@ -1,0 +1,15 @@
+{
+  "name": "point-marketing",
+  "description": "Internal Point marketing skills for brand voice, copywriting, and content review.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Point Digital Finance"
+  },
+  "repository": "https://github.com/pointdotcom-marketing/marketing-skills",
+  "keywords": [
+    "point",
+    "marketing",
+    "brand-voice",
+    "copywriting"
+  ]
+}

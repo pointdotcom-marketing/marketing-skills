@@ -1,7 +1,6 @@
 ---
 name: point-brand-voice
 description: Write, edit, and review Point marketing copy in the homeowner-first brand voice used on point.com, HEI, and HELOC pages. Use for landing pages, product explanations, ads, emails, FAQs, CTAs, SEO copy, lifecycle messages, and copy critiques for Point home equity products.
-license: MIT
 compatibility: Works with agent skill runtimes that support SKILL.md. No tools required unless the user asks for a fresh live-site audit.
 metadata:
   source_pages:

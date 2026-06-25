@@ -1,8 +1,8 @@
-# Point Marketing Skills
+# Marketing Skills
 
-Public agent skills for Point marketing work.
+Agent skills for Point.com marketing team usage.
 
-[![skills.sh](https://skills.sh/b/pointdotcom-marketing/marketing-skills)](https://skills.sh/pointdotcom-marketing/marketing-skills)
+This repository is published for Point team access, but it is for internal use only.
 
 ## Skills
 
@@ -10,24 +10,60 @@ Public agent skills for Point marketing work.
 
 ## Install
 
-After this repository is published publicly:
+Install a single skill from the published repository:
 
 ```bash
 npx skills add pointdotcom-marketing/marketing-skills --list
 npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-voice
 ```
 
-Install all skills from this repository:
+Install all skills from the published repository:
 
 ```bash
 npx skills add pointdotcom-marketing/marketing-skills --skill '*'
 ```
 
+From a local checkout:
+
+```bash
+npx skills add . --list
+npx skills add . --skill point-brand-voice
+```
+
+Install all skills from a local checkout:
+
+```bash
+npx skills add . --skill '*'
+```
+
+## Claude Plugin
+
+Claude can install these skills as the `point-marketing` plugin. Add this repository as a marketplace once:
+
+```bash
+claude plugin marketplace add pointdotcom-marketing/marketing-skills
+```
+
+Then install the plugin:
+
+```bash
+claude plugin install point-marketing@point-marketing
+```
+
+Validate the plugin locally before releasing changes:
+
+```bash
+claude plugin validate . --strict
+```
+
 ## Repository Layout
 
-This repository is intentionally set up as a multi-skill catalog:
+This repository is intentionally set up as a multi-skill catalog and Claude plugin:
 
 ```text
+.claude-plugin/
+  plugin.json
+  marketplace.json
 skills/
   point-brand-voice/
     SKILL.md
