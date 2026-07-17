@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "point-marketing",
-      "description": "Internal Point marketing skills for brand voice, copywriting, and content review.",
+      "description": "Internal Point marketing skills for brand voice, visual identity, copywriting, and content review.",
       "author": {
         "name": "Point Digital Finance"
       },
@@ -17,6 +17,8 @@
         "point",
         "marketing",
         "brand-voice",
+        "brand-guidelines",
+        "visual-identity",
         "copywriting"
       ]
     }
