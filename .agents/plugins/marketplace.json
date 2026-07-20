@@ -1,0 +1,20 @@
+{
+  "name": "point-marketing",
+  "interface": {
+    "displayName": "Point Marketing Skills"
+  },
+  "plugins": [
+    {
+      "name": "point-marketing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/point-marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
