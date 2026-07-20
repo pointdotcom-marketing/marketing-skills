@@ -85,6 +85,22 @@ Use the source names and values below.
 
 Do not assume every palette combination is accessible. Check contrast against the actual background, type size, weight, and interface state.
 
+## CTA Buttons
+
+The current Point production pattern on `point.com` uses:
+
+- `yorange` (`#F4C65D`) for a primary CTA background.
+- `pointBlack` (`#444444`) for the primary CTA label.
+- A horizontally and vertically centered label.
+- A default corner radius of `0.25rem` (4 px at the standard 16 px root size).
+- Circular Bold for the button label.
+
+The production web button uses flex centering, a minimum width of `10.625rem`, a height of `4.375rem`, and padding of `0.7rem 2rem 0.6rem`. Treat those dimensions as a web-component reference rather than fixed dimensions for every medium. Preserve the centered label, restrained 4 px corner treatment, and accessible color contrast when adapting the button to social assets, presentations, documents, or print.
+
+Point's small web button variant uses a `0.2rem` radius and a `3rem` height. Use it only when the deliverable clearly calls for the small variant; do not turn standard CTAs into pills.
+
+Source: live `point.com/hei` production stylesheet, reviewed July 20, 2026.
+
 ## Artwork Direction
 
 The guide provides examples rather than explicit written rules. The examples consistently suggest:

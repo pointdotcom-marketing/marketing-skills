@@ -40,6 +40,8 @@ Choose the logo color variant for legibility on the actual background. Use a `-p
 - Use Circular Std Book for body copy; use the Medium, Bold, and Black weights deliberately for hierarchy or emphasis.
 - Use Lora Italic for italic serif text.
 - Use yellow and Point Blue sparingly. Reserve Point Blue primarily for links or a focal element against muted colors.
+- Use `yorange` (`#F4C65D`) with `pointBlack` (`#444444`) for primary CTA buttons unless the approved design specifies another button variant.
+- Center CTA labels horizontally and vertically. Use Point's standard 0.25rem radius rather than a pill or heavily rounded treatment.
 - Test color contrast in the actual composition. A palette token's name does not replace an accessibility check.
 - Never reuse the product amounts, terms, loan-to-value figures, availability counts, or competitor data shown in the guide's design examples as current claims. Validate live product facts separately.
 
@@ -51,6 +53,7 @@ Before delivering an asset, confirm:
 - Minimum size and clear-space rules are met.
 - Typefaces, weights, alignment, and 1.5 header line height follow the guide.
 - Colors match the official values and accent colors are restrained.
+- CTA colors, label alignment, and corner radius follow the current Point button pattern.
 - Artwork or photography feels consistent with the reference direction without copying an example as a reusable asset.
 - Comparison layouts make Point prominent without compromising clarity or accessibility.
 - Text, controls, charts, and tables meet the applicable accessibility standard.
