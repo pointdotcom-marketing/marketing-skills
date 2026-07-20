@@ -27,6 +27,7 @@ Reusable skills that help AI agents create consistent, on-brand Point marketing 
 | --- | --- |
 | [`point-brand-voice`](skills/point-brand-voice/SKILL.md) | Writing, editing, or reviewing Point marketing copy for landing pages, ads, emails, FAQs, CTAs, and product education. |
 | [`point-brand-guidelines`](skills/point-brand-guidelines/SKILL.md) | Creating or reviewing Point visual work: logos, typography, color, imagery, layouts, and design systems. |
+| [`point-social-ad-ideation`](skills/point-social-ad-ideation/SKILL.md) | Generating, ranking, and expanding paid social concepts into production-ready creative briefs, test plans, and disclosure plans. |
 
 ## Use a skill
 
@@ -40,11 +41,16 @@ Use $point-brand-voice to rewrite this HEI landing-page section.
 Use $point-brand-guidelines to review this campaign concept for visual brand compliance.
 ```
 
+```text
+Use $point-social-ad-ideation to develop six distinct paid social concepts for homeowners comparing HEI and HELOC, then expand the strongest three into creative briefs.
+```
+
 ## Install one skill
 
 ```bash
 npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-voice --global
 npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-guidelines --global
+npx skills add pointdotcom-marketing/marketing-skills --skill point-social-ad-ideation --global
 ```
 
 ## ChatGPT Work and Codex desktop app
@@ -63,7 +69,7 @@ Then restart the ChatGPT desktop app. In **Plugins**, choose **Point Marketing S
 
 ### Team members: install and use it
 
-In the ChatGPT desktop app, open **Plugins** → **Shared with you** → **Point Marketing** → **Install**. Start a new ChatGPT Work or Codex task and ask for the marketing work you need. You can also name a skill directly, such as `$point-brand-voice`.
+In the ChatGPT desktop app, open **Plugins** → **Shared with you** → **Point Marketing** → **Install**. Start a new ChatGPT Work or Codex task and ask for the marketing work you need. You can also name a skill directly, such as `$point-brand-voice`, `$point-brand-guidelines`, or `$point-social-ad-ideation`.
 
 The workspace-sharing option keeps access inside your ChatGPT workspace; the one-line installer at the top remains the best option for Claude, Codex CLI, and other compatible local agents. See OpenAI's [plugin guide](https://learn.chatgpt.com/docs/build-plugins) for more details.
 

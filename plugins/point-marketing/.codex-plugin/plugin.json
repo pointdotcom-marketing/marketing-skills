@@ -1,19 +1,19 @@
 {
   "name": "point-marketing",
-  "version": "0.1.0",
-  "description": "Reusable Point marketing skills for brand voice and visual identity.",
+  "version": "0.3.0",
+  "description": "Reusable Point marketing skills for brand voice, visual identity, and paid social ideation.",
   "author": {
     "name": "Point Digital Finance",
     "url": "https://point.com"
   },
   "homepage": "https://github.com/pointdotcom-marketing/marketing-skills",
   "repository": "https://github.com/pointdotcom-marketing/marketing-skills",
-  "keywords": ["point", "marketing", "brand-voice", "brand-guidelines", "copywriting"],
+  "keywords": ["point", "marketing", "brand-voice", "brand-guidelines", "copywriting", "paid-social", "ad-ideation"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Point Marketing",
     "shortDescription": "Create consistent, on-brand Point marketing work.",
-    "longDescription": "Reusable Point marketing skills for writing, editing, and reviewing brand voice and visual identity work.",
+    "longDescription": "Reusable Point marketing skills for writing, editing, visual-brand review, and production-ready paid social ideation.",
     "developerName": "Point Digital Finance",
     "category": "Productivity",
     "capabilities": ["Write"],
@@ -21,7 +21,8 @@
     "defaultPrompt": [
       "Draft Point marketing copy for this campaign.",
       "Review this page for Point brand voice.",
-      "Review this concept for Point visual-brand alignment."
+      "Review this concept for Point visual-brand alignment.",
+      "Generate distinct Point paid social concepts and expand the strongest ideas into creative briefs."
     ],
     "brandColor": "#01679A"
   }

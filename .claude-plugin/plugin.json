@@ -1,7 +1,7 @@
 {
   "name": "point-marketing",
-  "description": "Internal Point marketing skills for brand voice, visual identity, copywriting, and content review.",
-  "version": "0.2.0",
+  "description": "Internal Point marketing skills for brand voice, visual identity, paid social ideation, copywriting, and content review.",
+  "version": "0.3.0",
   "author": {
     "name": "Point Digital Finance"
   },
@@ -12,6 +12,8 @@
     "brand-voice",
     "brand-guidelines",
     "visual-identity",
-    "copywriting"
+    "copywriting",
+    "paid-social",
+    "ad-ideation"
   ]
 }
