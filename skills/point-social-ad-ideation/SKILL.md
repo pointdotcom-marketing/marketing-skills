@@ -1,6 +1,6 @@
 ---
 name: point-social-ad-ideation
-description: Generate, differentiate, rank, and expand Point paid social and digital ad concepts into production-ready creative briefs. Use for campaign brainstorming, concept territories, hooks, UGC or testimonial ideas, static or motion concepts, cutdowns, test plans, brief writing, on-asset disclosure planning, or reviews of whether a Point social ad idea is distinct, brand-aligned, testable, legally reviewable, and feasible.
+description: Generate, differentiate, rank, and expand Point paid social and digital ad concepts into production-ready creative briefs and draft creative asset or design directions. Use for campaign brainstorming, concept territories, hooks, UGC or testimonial ideas, static or motion concepts, rough asset concepts, visual direction, cutdowns, test plans, brief writing, on-asset disclosure planning, or reviews of whether a Point social ad idea is distinct, brand-aligned, testable, legally reviewable, and feasible.
 ---
 
 # Point Social Ad Ideation
@@ -92,6 +92,8 @@ Recommend the strongest ideas with a short rationale. Preserve at least one lowe
 
 Use the production brief structure in [brief-output.md](references/brief-output.md). Specify the concept, hook, sequence, copy roles, format, ratios, deliverables, references, source assets, disclosure plan, guardrails, validation needs, and test plan.
 
+For each selected concept, include a draft creative asset and design direction. Show the intended composition, message hierarchy, imagery or footage, typography and color roles, CTA treatment, motion behavior when relevant, legal-safe area, and required source assets. When the user wants something visual and the available tools support it, create a rough mockup, storyboard, or representative key frame; otherwise provide a clear text-based layout sketch. Label these outputs as creative drafts pending design refinement, source-asset verification, accessibility checks, and Legal review.
+
 Distinguish among:
 
 - Concept direction: the strategic idea and intended takeaway.
@@ -123,6 +125,7 @@ Unless the user asks for another shape, return:
 2. six to ten concise concept territories
 3. a ranked top three
 4. production-ready briefs for selected concepts
-5. a test matrix showing the single primary variable for each execution
+5. a draft creative asset or design direction for each selected concept
+6. a test matrix showing the single primary variable for each execution
 
 Scale the output to the request. For a quick brainstorm, stop after territories and recommendations. For handoff work, include the full brief, sequence, and disclosure plan.

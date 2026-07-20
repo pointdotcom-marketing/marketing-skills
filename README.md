@@ -27,7 +27,7 @@ Reusable skills that help AI agents create consistent, on-brand Point marketing 
 | --- | --- |
 | [`point-brand-voice`](skills/point-brand-voice/SKILL.md) | Writing, editing, or reviewing Point marketing copy for landing pages, ads, emails, FAQs, CTAs, and product education. |
 | [`point-brand-guidelines`](skills/point-brand-guidelines/SKILL.md) | Creating or reviewing Point visual work: logos, typography, color, imagery, layouts, and design systems. |
-| [`point-social-ad-ideation`](skills/point-social-ad-ideation/SKILL.md) | Generating, ranking, and expanding paid social concepts into production-ready creative briefs, test plans, and disclosure plans. |
+| [`point-social-ad-ideation`](skills/point-social-ad-ideation/SKILL.md) | Generating, ranking, and expanding paid social concepts into creative briefs, draft asset and design directions, test plans, and disclosure plans. |
 
 ## Use a skill
 

@@ -56,6 +56,22 @@ Describe the scene, talent, interface, or object; what moves and remains fixed; 
 
 For animation, state how the loop begins and ends. For UGC, state who owns casting, filming, edit, graphics, captions, and implementation.
 
+### Draft creative asset and design direction
+
+Turn the concept into a concrete first-pass visual direction. Include:
+
+- a rough composition or frame-by-frame layout
+- headline, supporting copy, proof, CTA, logo, and legal hierarchy
+- imagery, illustration, UI, talent, props, or footage direction
+- typography, color, spacing, and graphic-device roles grounded in current Point brand guidance
+- motion, transition, or editing behavior when relevant
+- adaptation notes for each requested ratio, placement, and cutdown
+- approved source assets needed, plus any permissions or validation still pending
+
+When visual-generation or layout tools are available and the user wants a visual, create a rough key frame, storyboard, or low-fidelity mockup. Otherwise provide an unambiguous text wireframe or shot list that a designer can execute. Keep the draft legible at mobile size and reserve real space for the disclosure plan.
+
+Call the output `draft creative direction`, `rough mockup`, or `representative key frame`. Do not present generated imagery, placeholder UI, draft copy, unverified badges, or reconstructed legal marks as final approved assets.
+
 ### Sequence
 
 For each beat, specify timing or order, visual action, dialogue or VO, on-screen text, legal content, and purpose. Build each cutdown as a complete miniature story.
