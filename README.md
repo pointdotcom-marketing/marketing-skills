@@ -1,5 +1,22 @@
 # Marketing Skills
 
+> [!IMPORTANT]
+> **Install every available marketing skill**
+>
+> Paste this into Claude Code, Codex, or another agent with terminal access:
+>
+> ```text
+> Install all available Agent Skills from https://github.com/pointdotcom-marketing/marketing-skills globally for every compatible agent installed on this computer. Preserve each complete skill directory and its supporting files. Use `npx skills add pointdotcom-marketing/marketing-skills --skill '*' --global --yes`, verify the installation with `npx skills list --global`, and report which skills were installed and which agents can access them. If anything requires a separate manual step, explain exactly what remains.
+> ```
+>
+> Or run the installer directly:
+>
+> ```bash
+> npx skills add pointdotcom-marketing/marketing-skills --skill '*' --global --yes
+> ```
+>
+> This installs every skill currently available in the repository. ChatGPT Personal Skills are managed separately in ChatGPT under **Plugins → Skills**.
+
 Agent skills for Point.com marketing team usage.
 
 This repository is published for Point team access, but it is for internal use only.
