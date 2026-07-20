@@ -38,11 +38,12 @@ Examples:
 - Keep headers short and to the point.
 - Set body copy in Circular Std Book.
 - Use Circular Std Medium, Bold, and Black as available weights for hierarchy and emphasis.
+- Use Lora Italic when an italic serif treatment is needed.
 
 ### Application guidance
 
 - Use licensed font files provided by Point.
-- Do not silently replace ITC Century Book or Circular Std with lookalikes. If the fonts are unavailable, identify the missing dependency and mark any fallback as temporary.
+- Do not silently replace ITC Century Book, Circular Std, or Lora Italic with lookalikes. If the fonts are unavailable, identify the missing dependency and mark any fallback as temporary.
 - Preserve readable sizing and spacing even when the output format imposes constraints.
 
 ## Color Palette
