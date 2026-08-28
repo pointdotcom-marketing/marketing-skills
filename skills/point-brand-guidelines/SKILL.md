@@ -9,7 +9,7 @@ Apply Point's official visual identity consistently across design and implementa
 
 ## Workflow
 
-1. Read [visual-guidelines.md](references/visual-guidelines.md) before creating or reviewing a visual asset.
+1. Read [visual-guidelines.md](references/visual-guidelines.md) before creating or reviewing a visual asset. For illustration work, also read [illustration-system.md](references/illustration-system.md) and [illustration-reference-index.md](references/illustration-reference-index.md).
 2. Identify the output medium, dimensions, audience, and supplied brand assets. Inspect `assets/` before looking elsewhere for logos or fonts.
 3. Reuse the approved files in `assets/` when the deliverable needs a Point logo or bundled typeface; copy or embed the appropriate file in the output rather than recreating it.
 4. Apply the exact logo, typography, color, and spacing rules before making stylistic choices.
@@ -17,6 +17,8 @@ Apply Point's official visual identity consistently across design and implementa
 6. Use only approved logo, font, artwork, and photo files supplied by Point or available in Point's media kit. Do not redraw the logo, recolor it, or silently substitute proprietary fonts.
 7. If the deliverable includes marketing copy, also use the sibling `point-brand-voice` skill. Keep visual-brand review and copy/compliance review distinct.
 8. Verify accessibility, rendering, and current product accuracy before delivery.
+
+For visual references, distinguish files that are approved for reuse from files supplied only to demonstrate style. Do not copy an example image into production unless the reference index or current brief explicitly confirms reuse rights.
 
 ## Bundled Assets
 
