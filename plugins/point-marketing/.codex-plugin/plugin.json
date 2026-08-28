@@ -1,19 +1,19 @@
 {
   "name": "point-marketing",
   "version": "0.4.0",
-  "description": "Reusable Point marketing skills for brand voice, visual identity, paid social ideation, and editable template production.",
+  "description": "Reusable Point marketing skills for brand voice, visual identity, paid social ideation, editable template production, and partner creative review.",
   "author": {
     "name": "Point Digital Finance",
     "url": "https://point.com"
   },
   "homepage": "https://github.com/pointdotcom-marketing/marketing-skills",
   "repository": "https://github.com/pointdotcom-marketing/marketing-skills",
-  "keywords": ["point", "marketing", "brand-voice", "brand-guidelines", "copywriting", "paid-social", "ad-ideation", "template-production", "powerpoint", "canva"],
+  "keywords": ["point", "marketing", "brand-voice", "brand-guidelines", "copywriting", "paid-social", "ad-ideation", "template-production", "powerpoint", "canva", "partner-creative-review", "content-review"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Point Marketing",
     "shortDescription": "Create consistent, on-brand Point marketing work.",
-    "longDescription": "Reusable Point marketing skills for writing, editing, visual-brand review, paid social ideation, and editable PowerPoint or Canva-compatible template production.",
+    "longDescription": "Reusable Point marketing skills for writing, editing, visual-brand review, paid social ideation, editable PowerPoint or Canva-compatible template production, and first-pass partner creative review.",
     "developerName": "Point Digital Finance",
     "category": "Productivity",
     "capabilities": ["Write"],
@@ -23,7 +23,8 @@
       "Review this page for Point brand voice.",
       "Review this concept for Point visual-brand alignment.",
       "Generate distinct Point paid social concepts and expand the strongest ideas into creative briefs.",
-      "Turn this approved campaign brief into editable Point paid-social templates and verified preview exports."
+      "Turn this approved campaign brief into editable Point paid-social templates and verified preview exports.",
+      "Triage this partner creative batch for obvious brand, copy, disclosure, and journey issues before human review."
     ],
     "brandColor": "#01679A"
   }

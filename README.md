@@ -29,6 +29,7 @@ Reusable skills that help AI agents create consistent, on-brand Point marketing 
 | [`point-brand-guidelines`](skills/point-brand-guidelines/SKILL.md) | Creating or reviewing Point visual work: logos, typography, color, imagery, layouts, and design systems. |
 | [`point-social-ad-ideation`](skills/point-social-ad-ideation/SKILL.md) | Generating, ranking, and expanding paid social concepts into creative briefs, draft asset and design directions, test plans, and disclosure plans. |
 | [`point-paid-social-template-production`](skills/point-paid-social-template-production/SKILL.md) | Building, exporting, and preflighting editable Point paid-social templates for PowerPoint and Canva-compatible delivery. |
+| [`point-partner-creative-review`](skills/point-partner-creative-review/SKILL.md) | First-pass review of partner-submitted creative for obvious brand, copy, product, disclosure, production, and journey issues before human Brand, Content, or Compliance review. |
 
 ## Use a skill
 
@@ -50,6 +51,10 @@ Use $point-social-ad-ideation to develop six distinct paid social concepts for h
 Use $point-paid-social-template-production to turn this approved campaign brief into editable 4:5 PowerPoint templates, Canva-compatible files, previews, and separate illustration exports.
 ```
 
+```text
+Use $point-partner-creative-review to triage this partner ad batch for obvious brand, copy, disclosure, and journey issues before Brand and Compliance review.
+```
+
 ## Install one skill
 
 ```bash
@@ -57,6 +62,7 @@ npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-voice 
 npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-guidelines --global
 npx skills add pointdotcom-marketing/marketing-skills --skill point-social-ad-ideation --global
 npx skills add pointdotcom-marketing/marketing-skills --skill point-paid-social-template-production --global
+npx skills add pointdotcom-marketing/marketing-skills --skill point-partner-creative-review --global
 ```
 
 ## ChatGPT Work and Codex desktop app
@@ -75,7 +81,7 @@ Then restart the ChatGPT desktop app. In **Plugins**, choose **Point Marketing S
 
 ### Team members: install and use it
 
-In the ChatGPT desktop app, open **Plugins** → **Shared with you** → **Point Marketing** → **Install**. Start a new ChatGPT Work or Codex task and ask for the marketing work you need. You can also name a skill directly, such as `$point-brand-voice`, `$point-brand-guidelines`, `$point-social-ad-ideation`, or `$point-paid-social-template-production`.
+In the ChatGPT desktop app, open **Plugins** → **Shared with you** → **Point Marketing** → **Install**. Start a new ChatGPT Work or Codex task and ask for the marketing work you need. You can also name a skill directly, such as `$point-brand-voice`, `$point-brand-guidelines`, `$point-social-ad-ideation`, `$point-paid-social-template-production`, or `$point-partner-creative-review`.
 
 The workspace-sharing option keeps access inside your ChatGPT workspace; the one-line installer at the top remains the best option for Claude, Codex CLI, and other compatible local agents. See OpenAI's [plugin guide](https://learn.chatgpt.com/docs/build-plugins) for more details.
 
