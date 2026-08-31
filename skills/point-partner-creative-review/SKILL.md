@@ -29,11 +29,15 @@ Then use only the priority headings that have findings:
 
 - Slide 9, footer — No licensing identifier is visible. Compliance should confirm whether one is required for this placement and market.
 
-Keep each bullet to one sentence in the form `Location — issue. Action.` Combine repeated issues across assets when they have the same correction. Default to the fewest useful findings and no more than eight bullets unless the user asks for an exhaustive review.
+Keep each bullet to one sentence in the form `Location — issue. Action.` Default to 3–5 bullets total; four is a strong target for a small multi-asset review, not a quota. Use fewer when they cover the decisions, and exceed five only when another distinct issue would materially change whether an asset advances or who must act.
+
+Compress by decision, not by category. Combine related defects on the same asset when they share one correction, and combine repeated issues across assets when they have the same correction. Split findings only when their priority or required action differs.
+
+Before returning, remove any bullet that is optional polish, already covered by a higher-priority finding, routine downstream QA, or a verification gap that would not change the decision. The final list should answer only: what blocks advancement, what must be fixed, and what material point needs an owner to verify.
 
 Do not add separate category, rationale, or owner fields. Include why something matters only when the risk is not obvious, and name an owner only when that owner must verify or supply the correction. Do not include subjective polish or nice-to-have rewrites in the default review.
 
-Use **Needs context / not reviewed** only when a missing detail or inaccessible item could change the result. If no obvious issue is found, write one short paragraph beginning **No obvious issues found in the reviewed material.** Include the scope and state that the result is a first pass, not approval.
+Omit **Needs context / not reviewed** by default. Use it only when a missing or inaccessible item prevents judgment on a likely material risk; do not list normal later-stage needs such as reviewing final executions, additional frames, or click-path QA unless their absence prevents this first pass. If no obvious issue is found, write one short paragraph beginning **No obvious issues found in the reviewed material.** Include the scope and state that the result is a first pass, not approval.
 
 ## Priorities
 
