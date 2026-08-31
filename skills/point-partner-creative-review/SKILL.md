@@ -5,7 +5,7 @@ description: Review partner-, affiliate-, broker-, or publisher-submitted creati
 
 # Point Partner Creative Review
 
-Perform an evidence-led first pass that removes obvious defects and gives the appropriate human reviewer a shorter, clearer queue. The result is review support, not approval.
+Perform a concise, evidence-led first pass that removes obvious defects and gives the appropriate human reviewer a prioritized queue. The result is review support, not approval.
 
 ## Required guidance
 
@@ -53,59 +53,58 @@ Partner styling may differ from Point's visual system. Treat that difference as 
 
 ### 4. Prioritize the findings
 
-Assign one action level:
+Assign one priority level:
 
-- **Fix before review:** an obvious brand misuse, factual contradiction, misleading statement, broken journey, serious legibility problem, or other defect that should be corrected before the next human review.
-- **Verify or route:** a claim, disclosure, state rule, qualification, destination behavior, or contextual choice that requires an owner or authoritative source.
-- **Consider:** a production-quality or messaging refinement that is useful but not a demonstrated defect.
+- **P0 — Blocker:** materially misleading product framing or claim, fabricated or seriously misused Point identity, an unauthorized or misleading destination, or another severe issue that makes the creative unsuitable to advance as-is.
+- **P1 — Required fix:** a clear brand, copy, disclosure, journey, legibility, or production defect that must be corrected before approval.
+- **P2 — Verify or route:** a claim, disclosure, state rule, qualification, destination behavior, or contextual choice that requires an owner or authoritative source.
+- **P3 — Consider:** an optional production-quality or messaging refinement, not a demonstrated defect.
+
+Use P0 sparingly. Order findings by priority, then by asset, and omit empty priority levels.
 
 Do not call an item legally compliant, approved, or safe to publish. Compliance determines compliance; Brand and Content own judgment calls in their domains.
 
 ### 5. Make each comment usable
 
-For each finding, provide:
+Make each finding a short bullet containing the precise location, the issue, and the smallest clear corrective action. Add why it matters only when it is not obvious. Name an owner only when verification or routing is needed.
 
-1. what is present
-2. why it matters in this context
-3. the smallest clear corrective action
-4. the source or owner that should confirm the change when verification is needed
-
-Use direct language. Separate a required correction from an optional rewrite. Do not silently replace a claim with a new factual claim; use a conditional recommendation or placeholder until current approved language is available.
+Use direct language. Keep each bullet to one or two sentences. Separate a required correction from an optional rewrite. Do not silently replace a claim with a new factual claim; use a conditional recommendation or placeholder until current approved language is available.
 
 ### 6. Return the review
 
-Default to this compact structure:
+Default to a brief, copy-pasteable list. Never use tables.
 
-#### Review status
+Open with one plain-language status paragraph using one of these phrases:
 
-Use one of:
+- **Obvious issues found.**
+- **No obvious issues found in the reviewed material.**
+- **Review incomplete.**
 
-- **Obvious issues found**
-- **No obvious issues found in the reviewed material**
-- **Review incomplete**
+In the same paragraph, name the scope and the highest-priority pattern. Prefer this shape:
 
-Add one sentence describing the scope and the highest-priority pattern.
+> Obvious issues found. Scope: creative on slides 8–10 of the Strand placements deck. Highest-priority pattern: Disruptive Media's static ad (slide 10) uses a fabricated Point logo, frames the HEI as a loan, and sends traffic to a non-point.com domain.
 
-#### Findings
+Then group short bullets under only the priority headings that have findings:
 
-| Action | Location | Category | Finding and why it matters | Requested change or owner |
-| --- | --- | --- | --- | --- |
+#### P0 — Blockers
 
-Order findings by action level, then by asset. Keep separate defects in separate rows.
+- Slide 10 — Uses a fabricated Point logo. Replace it with an approved logo asset.
 
-#### Needs context or not reviewed
+#### P1 — Required fixes
 
-List only questions and gaps that could change the review. State which items were inaccessible or outside scope.
+- Slide 8, headline — Describes the HEI as a loan. Replace it with current approved product language.
 
-#### Human handoff
+#### P2 — Verify or route
 
-Name the remaining review owners:
+- Slide 9, footer — No licensing identifier is visible. Compliance should confirm whether one is required for this placement and market.
 
-- Brand/Design for identity and visual judgment
-- Content for copy, positioning, and product explanation
-- Compliance/Legal for claims, disclosures, licensing, state requirements, and final approval
+#### P3 — Consider
 
-If no obvious issue is found, say explicitly that this is a first-pass result rather than approval.
+- Slide 9, CTA — The button competes with the headline. Consider reducing its visual weight.
+
+Add **Needs context / not reviewed** only when a missing detail or inaccessible item could change the result. End with one short reminder that final review still belongs to the relevant Brand/Design, Content, or Compliance/Legal owner; do not add a detailed handoff section unless the user asks.
+
+If no obvious issue is found, say explicitly that the result is a first pass, not approval.
 
 ## Scope boundary
 

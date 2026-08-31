@@ -33,7 +33,7 @@ Check whether:
 - urgency, rejection, or financial-stress framing remains accurate, measured, and respectful
 - unusual product phrases are clear, current, and approved rather than merely clever
 
-Flag stale or unsupported numbers for verification rather than replacing them from memory. When otherwise accurate copy could be stronger, classify it as **Consider** unless clarity or trust is materially compromised.
+Flag stale or unsupported numbers for verification rather than replacing them from memory. When otherwise accurate copy could be stronger, classify it as **P3 — Consider** unless clarity or trust is materially compromised.
 
 ## 3. Disclosures, licensing, and qualifications
 
@@ -59,7 +59,7 @@ Check whether:
 - the landing page, prequalification flow, or application stage matches credit-check, qualification, and CTA claims
 - required leaving-site notices, consent treatments, or other journey controls have been confirmed by the appropriate owner
 
-Unknown behavior is a **Verification gap**. A general best practice is not automatically a Point or legal requirement.
+Unknown behavior is **P2 — Verify or route**. A general best practice is not automatically a Point or legal requirement.
 
 ## 5. Production quality and consistency
 
@@ -73,7 +73,7 @@ Check whether:
 - obvious artifacts, altered logos, malformed text, or other generative-AI defects are present
 - the set looks intentional enough to support trust in a financial product
 
-Classify subjective polish as **Consider**. Raise it to **Fix before review** only when the execution creates a clear legibility, identity, consistency, or credibility defect.
+Classify subjective polish as **P3 — Consider**. Raise it to **P1 — Required fix** only when the execution creates a clear legibility, identity, consistency, or credibility defect.
 
 ## 6. Context and review ownership
 
@@ -88,11 +88,11 @@ Route findings by owner:
 
 ## Calibration examples
 
-- The Point logo visibly changes shape across three AI-generated ads: **Fix before review — Point identity**. Replace every instance with the same approved source asset.
-- The Point logo sits unreadably over a bright sky: **Fix before review — legibility**. Use an approved contrasting variant or a suitable background treatment.
+- The Point logo visibly changes shape across three AI-generated ads: **P0 — Blocker** when the logo is fabricated; otherwise **P1 — Required fix**. Replace every instance with the same approved source asset.
+- The Point logo sits unreadably over a bright sky: **P1 — Required fix**. Use an approved contrasting variant or a suitable background treatment.
 - Partner-branded creative uses the partner's own typography consistently: no finding unless it misrepresents Point, conflicts with the intended cobranding, or creates a credibility problem at handoff.
-- Two variants use different footer widths, button colors, and social-proof alignment: **Fix before review — set consistency** when the differences appear accidental.
-- Copy says “no credit hit” but sends directly to an application: **Verify or route — product journey and claim**. Confirm the stage and replace the claim with current approved language.
-- Copy leads heavily with no monthly payments while omitting how Point is repaid: **Fix before review — product explanation**. Add current approved repayment context.
-- A state-specific asset may lack a licensing element: **Verify or route — Compliance**. Identify the observable omission and ask Compliance to confirm the requirement and language.
-- A benefits list feels long but remains accurate and legible: **Consider — message hierarchy**. Recommend the strongest three without presenting the preference as a compliance issue.
+- Two variants use different footer widths, button colors, and social-proof alignment: **P1 — Required fix** when the differences appear accidental.
+- Copy says “no credit hit” but sends directly to an application: **P2 — Verify or route**. Confirm the stage and replace the claim with current approved language.
+- Copy leads heavily with no monthly payments while omitting how Point is repaid: **P1 — Required fix**. Add current approved repayment context.
+- A state-specific asset may lack a licensing element: **P2 — Verify or route**. Identify the observable omission and ask Compliance to confirm the requirement and language.
+- A benefits list feels long but remains accurate and legible: **P3 — Consider**. Recommend the strongest three without presenting the preference as a compliance issue.
