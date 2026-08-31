@@ -33,7 +33,7 @@ Check whether:
 - urgency, rejection, or financial-stress framing remains accurate, measured, and respectful
 - unusual product phrases are clear, current, and approved rather than merely clever
 
-Flag stale or unsupported numbers for verification rather than replacing them from memory. When otherwise accurate copy could be stronger, classify it as **P3 — Consider** unless clarity or trust is materially compromised.
+Flag stale or unsupported numbers as **P2 — Verify or route** rather than replacing them from memory. Do not report an optional copy improvement in the default review unless clarity or trust is materially compromised.
 
 ## 3. Disclosures, licensing, and qualifications
 
@@ -73,7 +73,7 @@ Check whether:
 - obvious artifacts, altered logos, malformed text, or other generative-AI defects are present
 - the set looks intentional enough to support trust in a financial product
 
-Classify subjective polish as **P3 — Consider**. Raise it to **P1 — Required fix** only when the execution creates a clear legibility, identity, consistency, or credibility defect.
+Do not report subjective polish in the default review. Use **P1 — Required fix** only when the execution creates a clear legibility, identity, consistency, or credibility defect.
 
 ## 6. Context and review ownership
 
@@ -95,4 +95,4 @@ Route findings by owner:
 - Copy says “no credit hit” but sends directly to an application: **P2 — Verify or route**. Confirm the stage and replace the claim with current approved language.
 - Copy leads heavily with no monthly payments while omitting how Point is repaid: **P1 — Required fix**. Add current approved repayment context.
 - A state-specific asset may lack a licensing element: **P2 — Verify or route**. Identify the observable omission and ask Compliance to confirm the requirement and language.
-- A benefits list feels long but remains accurate and legible: **P3 — Consider**. Recommend the strongest three without presenting the preference as a compliance issue.
+- A benefits list feels long but remains accurate and legible: no default finding. Offer a shorter list only when the user asks for optional craft feedback.
