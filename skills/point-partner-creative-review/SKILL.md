@@ -11,11 +11,17 @@ Return a short, prioritized first pass that removes obvious defects before human
 
 Use a plain, copy-pasteable list. Never use a Markdown table, HTML table, grid, columns, or a table-like layout—even for a large batch and even if the user asks for more detail. Do not use **Review status** or **Findings** headings. Do not recreate the old `Action | Location | Category | Finding | Change / Owner` format.
 
-Start with one unheaded paragraph in this form:
+Start with exactly three short, unheaded lines separated by blank lines:
 
-> Obvious issues found. Scope: creative on slides 8–10 of the Strand placements deck. Highest-priority pattern: Disruptive Media's static ad (slide 10) uses a fabricated Point logo, frames the HEI as a loan, and sends traffic to a non-point.com domain.
+> Obvious issues found.
+>
+> Scope: Slides 8–10 of the Strand placements deck.
+>
+> Top priority: Slide 10's Disruptive Media ad uses a fabricated Point logo, calls the HEI a loan, and links to a non-Point domain.
 
-Then use only the priority headings that have findings:
+Keep the scope line to the file or deck name plus the reviewed range or asset count; do not inventory individual assets or add a parenthetical breakdown. Keep the top-priority line to one sentence naming the location and defect; leave rationale, product principles, and corrective detail to the priority bullet. Do not format these three lines as headings or list items.
+
+Then use only the priority headings that have findings, with exactly three `#` characters:
 
 ### P0 — Blockers
 
@@ -29,13 +35,13 @@ Then use only the priority headings that have findings:
 
 - Slide 9, footer — No licensing identifier is visible. Compliance should confirm whether one is required for this placement and market.
 
-Keep each bullet to one sentence in the form `Location — issue. Action.` Default to 3–5 bullets total; four is a strong target for a small multi-asset review, not a quota. Use fewer when they cover the decisions, and exceed five only when another distinct issue would materially change whether an asset advances or who must act.
+Keep each bullet on one line and preferably under 35 words in the form `Location — issue. Action.` Default to 3–5 bullets total; four is a strong target for a small multi-asset review, not a quota. Use fewer when they cover the decisions, and exceed five only when another distinct issue would materially change whether an asset advances or who must act.
 
 Compress by decision, not by category. Combine related defects on the same asset when they share one correction, and combine repeated issues across assets when they have the same correction. Split findings only when their priority or required action differs.
 
 Before returning, remove any bullet that is optional polish, already covered by a higher-priority finding, routine downstream QA, or a verification gap that would not change the decision. The final list should answer only: what blocks advancement, what must be fixed, and what material point needs an owner to verify.
 
-Do not add separate category, rationale, or owner fields. Include why something matters only when the risk is not obvious, and name an owner only when that owner must verify or supply the correction. Do not include subjective polish or nice-to-have rewrites in the default review.
+Do not add separate category, rationale, or owner fields. Include why something matters only when the risk is not obvious, and name an owner only when that owner must verify or supply the correction. Do not include subjective polish or nice-to-have rewrites in the default review. End after the final bullet; do not add a closing summary, approval disclaimer, or owner recap.
 
 Omit **Needs context / not reviewed** by default. Use it only when a missing or inaccessible item prevents judgment on a likely material risk; do not list normal later-stage needs such as reviewing final executions, additional frames, or click-path QA unless their absence prevents this first pass. If no obvious issue is found, write one short paragraph beginning **No obvious issues found in the reviewed material.** Include the scope and state that the result is a first pass, not approval.
 
