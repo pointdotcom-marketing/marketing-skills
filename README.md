@@ -30,6 +30,7 @@ Reusable skills that help AI agents create consistent, on-brand Point marketing 
 | [`point-social-ad-ideation`](skills/point-social-ad-ideation/SKILL.md) | Generating, ranking, and expanding paid social concepts into creative briefs, draft asset and design directions, test plans, and disclosure plans. |
 | [`point-paid-social-template-production`](skills/point-paid-social-template-production/SKILL.md) | Building, exporting, and preflighting editable Point paid-social templates for PowerPoint and Canva-compatible delivery. |
 | [`point-partner-creative-review`](skills/point-partner-creative-review/SKILL.md) | First-pass review of partner-submitted creative for obvious brand, copy, product, disclosure, production, and journey issues before human Brand, Content, or Compliance review. |
+| [`webflow-dev`](skills/webflow-dev/SKILL.md) | Building or revising Webflow pages from Figma or Paper designs while reusing the site's existing implementation system. |
 
 ## Use a skill
 
@@ -55,6 +56,10 @@ Use $point-paid-social-template-production to turn this approved campaign brief 
 Use $point-partner-creative-review to triage this partner ad batch for obvious brand, copy, disclosure, and journey issues before Brand and Compliance review.
 ```
 
+```text
+Use $webflow-dev to build this Webflow page from the linked Figma design without publishing it.
+```
+
 ## Install one skill
 
 ```bash
@@ -63,6 +68,7 @@ npx skills add pointdotcom-marketing/marketing-skills --skill point-brand-guidel
 npx skills add pointdotcom-marketing/marketing-skills --skill point-social-ad-ideation --global
 npx skills add pointdotcom-marketing/marketing-skills --skill point-paid-social-template-production --global
 npx skills add pointdotcom-marketing/marketing-skills --skill point-partner-creative-review --global
+npx skills add pointdotcom-marketing/marketing-skills --skill webflow-dev --global
 ```
 
 ## ChatGPT Work and Codex desktop app
@@ -122,6 +128,28 @@ skills/<skill-name>/
 ```
 
 Keep core instructions in `SKILL.md`, put detailed material in `references/`, and avoid adding an extra README inside the skill folder.
+
+### Validate changes locally
+
+The skill validator requires Python and PyYAML. Create a repository-local virtual environment and install the tracked development dependencies:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+```
+
+The `.venv/` directory is ignored by Git. Validate each new or changed skill with the validator bundled with Codex:
+
+```bash
+.venv/bin/python ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/<skill-name>
+```
+
+After adding or editing anything under `skills/` or `plugins/`, synchronize and verify both native plugin packages:
+
+```bash
+python3 scripts/sync-plugin-packaging.py
+python3 scripts/sync-plugin-packaging.py --check
+```
 
 ### Request a skill
 
