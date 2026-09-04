@@ -66,7 +66,9 @@ Treat current Legal- or Compliance-approved materials and current product source
 ## Review method
 
 - Establish the assets in scope, intended brand relationship, audience or market when relevant, destination, and current comparison sources. Continue with harmless assumptions; use P2 when missing context could change the judgment.
-- Inspect the submitted artifact itself and anchor each finding to a filename, slide, page, frame, headline, CTA, footer, timestamp, or visual region. List inaccessible material under **Needs context / not reviewed**.
+- For attached documents, PDFs, or slide decks, extract the text and render every in-scope page or slide to an image, then inspect each rendering. Text extraction supports copy review but never substitutes for visual inspection.
+- When embedded creative is too small to assess in the page or slide rendering, extract or open the underlying image at full resolution and inspect it directly. Check visible logos, imagery, copy, disclosures, CTAs, cropping, contrast, and production artifacts.
+- Inspect the submitted artifact itself and anchor each finding to a filename, slide, page, frame, headline, CTA, footer, timestamp, or visual region. If required visual content cannot be rendered or extracted, list that specific material under **Needs context / not reviewed** rather than presenting the review as complete.
 - Apply every relevant section of the rubric, but report only observable defects and material verification gaps. Do not pad the result with general best practices or optional craft feedback.
 - Treat partner styling as intentional unless it misuses a Point element, conflicts with the stated brand mode, creates an untrustworthy handoff, or makes the set internally inconsistent.
 - Do not call creative legally compliant, approved, or safe to publish. Compliance determines compliance; Brand and Content own judgment calls in their domains.
