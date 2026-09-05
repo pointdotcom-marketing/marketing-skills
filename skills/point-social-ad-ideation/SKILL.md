@@ -9,7 +9,7 @@ Create social ideas that are strategically different, understandable in-feed, sa
 
 ## Required references
 
-Read [creative-patterns.md](references/creative-patterns.md) before generating concepts. Read [brief-output.md](references/brief-output.md) and [legal-disclosure-planning.md](references/legal-disclosure-planning.md) before expanding or formatting a concept.
+Use [creative-patterns.md](references/creative-patterns.md) when examples or additional creative range would help; its patterns are optional inspiration. Read [brief-output.md](references/brief-output.md) and [legal-disclosure-planning.md](references/legal-disclosure-planning.md) before expanding or formatting a concept.
 
 If available, also use:
 
@@ -44,18 +44,7 @@ Plan three disclosure layers separately:
 
 ### 3. Build concept territories
 
-Generate territories before executions. Make each territory distinct across at least three of these dimensions:
-
-- homeowner tension or job to be done
-- core insight or promise
-- product story
-- proof type
-- social format or visual device
-- emotional payoff
-- motion or interaction pattern
-- CTA or next step
-
-Do not present headline swaps as separate ideas. Combine patterns only when the concept stays easy to understand.
+Generate strategically distinct territories before expanding executions. Each idea should offer a different homeowner insight, product story, proof, or creative mechanism that yields a useful test. Headline swaps alone are variants of one idea.
 
 ### 4. Design for the feed
 
@@ -94,28 +83,9 @@ Use the production brief structure in [brief-output.md](references/brief-output.
 
 For each selected concept, include a draft creative asset and design direction. Show the intended composition, message hierarchy, imagery or footage, typography and color roles, CTA treatment, motion behavior when relevant, legal-safe area, and required source assets. When the user wants something visual and the available tools support it, create a rough mockup, storyboard, or representative key frame; otherwise provide a clear text-based layout sketch. Label these outputs as creative drafts pending design refinement, source-asset verification, accessibility checks, and Legal review.
 
-Distinguish among:
+### 7. Acceptance criteria
 
-- Concept direction: the strategic idea and intended takeaway.
-- Creative execution: how the idea appears in a specific format.
-- Copy draft: proposed language that requires factual and legal validation.
-- Production instruction: what the maker should build, animate, shoot, or edit.
-
-### 7. Run final checks
-
-Confirm that:
-
-- the concepts are meaningfully different
-- each concept lands one primary message
-- HEI is not framed as a loan
-- HELOC is not framed as no-payment financing
-- comparisons help homeowners assess fit instead of declaring a universal winner
-- financial stress is treated respectfully
-- the CTA is specific and low-pressure
-- unverified claims, testimonials, ratings, and legal language are flagged
-- baseline and claim-specific disclosures have a legible placement plan
-- required Legal review is called out
-- every execution is readable at its intended size and coherent without sound
+Selected concepts communicate one clear message at the intended size, work without sound where appropriate, and have feasible production and disclosure plans. Apply the sibling voice and visual rules and flag unsupported claims or unresolved approvals. Keep drafts clearly labeled until their dependencies are resolved.
 
 ## Default deliverable
 

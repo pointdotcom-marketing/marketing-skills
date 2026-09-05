@@ -14,11 +14,6 @@ Use the explicit rules below as requirements. Treat the artwork, photography, an
 - Use a minimum logo height of 0.6 in in print.
 - Maintain clear space on all sides equal to at least 50% of the logo's rendered height.
 
-Examples:
-
-- A 40 px-high logo requires at least 20 px of clear space on every side.
-- A 1.2 in-high logo requires at least 0.6 in of clear space on every side.
-
 ### Application guidance
 
 - Select an approved full-color or monochrome logo asset that maintains contrast with the background.

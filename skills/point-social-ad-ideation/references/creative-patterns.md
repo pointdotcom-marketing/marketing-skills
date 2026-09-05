@@ -82,7 +82,7 @@ Use an approved local proof point, homeowner scenario, or property context. Vali
 
 ## Differentiation test
 
-Treat ideas as duplicates when they share the same tension, promise, proof, format, and payoff even if the headline or scene changes. Require each idea to change at least three strategic axes.
+Treat ideas as duplicates when they share the same tension, promise, proof, format, and payoff even if the headline or scene changes. Distinguish concepts by a substantive change in insight, story, proof, or creative mechanism; treat cosmetic changes as execution variants.
 
 Balance the slate across human and graphic-led concepts, education and emotion, product and outcome, low and moderate production effort, and proven versus exploratory formats.
 

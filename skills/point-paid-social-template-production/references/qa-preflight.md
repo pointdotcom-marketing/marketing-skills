@@ -13,7 +13,7 @@ Complete all applicable checks before delivery. Separate mechanical validation f
 - Required fonts are present or substitutions are documented.
 - All required files use clear, consistent names.
 
-Run `scripts/preflight.py` for the checks it supports. Treat its result as evidence, not a replacement for opening and inspecting the source file.
+Run `scripts/preflight.py --width WIDTH --height HEIGHT` with the requested preview dimensions (defaults: 1080 × 1350). It checks deck aspect ratio, PNG dimensions, alpha-channel presence, and whether slides contain text and pictures. An alpha channel does not prove transparent pixels, and text/picture presence does not prove every required object remains editable. Treat its result as evidence, not a replacement for opening and inspecting the source file.
 
 ## Visual checks
 

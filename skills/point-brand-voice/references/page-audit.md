@@ -1,5 +1,7 @@
 # Point Main Site Voice Audit
 
+Historical voice examples only. Product terms and credit-impact, timing, or amount claims require current approved sources before reuse.
+
 Source pages audited:
 
 - `https://point.com/`

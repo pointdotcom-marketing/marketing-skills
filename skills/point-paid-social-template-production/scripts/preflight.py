@@ -40,7 +40,7 @@ def png_info(path: Path) -> tuple[int, int, bool]:
         return width, height, has_alpha
 
 
-def inspect_pptx(path: Path) -> tuple[list[str], list[str]]:
+def inspect_pptx(path: Path, expected_width: int = 1080, expected_height: int = 1350) -> tuple[list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
     try:
@@ -53,8 +53,8 @@ def inspect_pptx(path: Path) -> tuple[list[str], list[str]]:
             else:
                 width = int(size.attrib["cx"])
                 height = int(size.attrib["cy"])
-                if height == 0 or abs((width / height) - 0.8) > 0.002:
-                    errors.append(f"PowerPoint aspect ratio is not 4:5 ({width}:{height})")
+                if height == 0 or abs((width / height) - (expected_width / expected_height)) > 0.002:
+                    errors.append(f"PowerPoint aspect ratio does not match {expected_width}:{expected_height} ({width}:{height})")
 
             slide_names = sorted(
                 name
@@ -79,12 +79,16 @@ def inspect_pptx(path: Path) -> tuple[list[str], list[str]]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Check a 4:5 PowerPoint, 1080x1350 preview PNGs, and transparent illustration PNGs."
+        description="Check deck aspect ratio, preview dimensions, and illustration alpha-channel presence."
     )
     parser.add_argument("--deck", type=Path, help="Editable .pptx source deck")
     parser.add_argument("--preview", action="append", default=[], type=Path)
     parser.add_argument("--illustration", action="append", default=[], type=Path)
+    parser.add_argument("--width", type=int, default=1080, help="Expected preview width (default: 1080)")
+    parser.add_argument("--height", type=int, default=1350, help="Expected preview height (default: 1350)")
     args = parser.parse_args()
+    if args.width <= 0 or args.height <= 0:
+        parser.error("--width and --height must be positive")
 
     errors: list[str] = []
     warnings: list[str] = []
@@ -96,7 +100,7 @@ def main() -> int:
         if not args.deck.is_file():
             errors.append(f"missing deck: {args.deck}")
         else:
-            deck_errors, deck_warnings = inspect_pptx(args.deck)
+            deck_errors, deck_warnings = inspect_pptx(args.deck, args.width, args.height)
             errors.extend(deck_errors)
             warnings.extend(deck_warnings)
 
@@ -106,7 +110,7 @@ def main() -> int:
             continue
         try:
             width, height, _ = png_info(preview)
-            if (width, height) != (1080, 1350):
+            if (width, height) != (args.width, args.height):
                 errors.append(f"preview has wrong size: {preview} ({width}x{height})")
         except ValueError as error:
             errors.append(f"invalid preview {preview}: {error}")

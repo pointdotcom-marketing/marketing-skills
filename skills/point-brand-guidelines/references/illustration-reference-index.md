@@ -29,4 +29,4 @@ Do not claim a close match to the referenced illustration library until the actu
 
 Store inspection-only images beside this index under `references/visual-references/`. Store approved reusable illustration source files under `assets/approved-illustrations/` and keep their original filenames when provided by Point.
 
-Black areas produced by a transparency preview are viewer chrome, not part of the image. Verify alpha transparency before classifying or reusing a source PNG.
+Inspect actual alpha transparency to distinguish viewer backgrounds from artwork; black pixels are not automatically viewer chrome.

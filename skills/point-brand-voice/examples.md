@@ -1,5 +1,7 @@
 # Point Brand Voice Examples
 
+Historical voice examples only. Product terms and credit-impact, timing, or amount claims require current approved sources before reuse.
+
 ## Hero Copy
 
 Before:

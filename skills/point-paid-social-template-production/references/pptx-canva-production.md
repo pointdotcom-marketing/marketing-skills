@@ -4,7 +4,7 @@ Build the PowerPoint as the editable source of truth unless the assignment expli
 
 ## PowerPoint construction
 
-- Use a `4:5` slide ratio for `1080 × 1350` social templates.
+- Match the requested dimensions; use `4:5` for `1080 × 1350` social templates.
 - Use native text boxes for all copy.
 - Use native shapes for simple backgrounds, rules, and geometric accents when practical.
 - Place approved logos without altering their proportions or colors.

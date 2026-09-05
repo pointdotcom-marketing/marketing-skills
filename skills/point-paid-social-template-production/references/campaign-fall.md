@@ -7,7 +7,7 @@ This reference captures the supplied fall-template assignment. Treat it as a cam
 - Source: user-supplied brief dated August 13, 2026.
 - The referenced Point illustrations, ads, and font screenshot are not bundled with this draft skill and must be supplied or linked before style-match claims can be verified.
 - Confirm the exact current legal footer before production. Reference ads establish treatment, not current legal language.
-- Resolve the headline line-spacing conflict described in [source-priority.md](source-priority.md).
+- The requested headline line spacing (1.05 for ITC Century; 1.20 for Century) differs from the global 1.5 rule. Apply it when explicitly authorized as a campaign exception; otherwise resolve precedence before final delivery.
 
 ## Shared deliverables
 

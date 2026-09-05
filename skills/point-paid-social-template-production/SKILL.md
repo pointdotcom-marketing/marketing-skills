@@ -29,13 +29,6 @@ Use `point-brand-voice` when copy needs to be written or materially revised. Use
 
 Identify the campaign, audience, placement, dimensions, copy, deliverables, production tools, supplied assets, reference-only material, reuse permissions, and current approval state.
 
-Separate:
-
-- approved production assets
-- visual references that may be inspected but not reused
-- campaign-specific instructions
-- unverified claims, testimonials, ratings, product facts, or legal language
-
 Make small reversible assumptions when inputs are incomplete. Stop for clarification only when a missing decision changes the campaign meaning, asset rights, or compliance posture.
 
 ### 2. Resolve source conflicts
@@ -52,7 +45,7 @@ When reference images are supplied, record what each one demonstrates and whethe
 
 Reuse an approved existing illustration when it satisfies the brief. Otherwise, create a new illustration using the Point illustration system and the campaign direction.
 
-Keep all copy outside the illustration. Export each new illustration separately with a transparent background. Treat black surrounding a transparency preview as viewer chrome, not artwork.
+Keep all copy outside the illustration. Export each new illustration separately with a transparent background. Check actual alpha transparency when a preview background is ambiguous.
 
 ### 5. Build the editable template
 
@@ -83,13 +76,6 @@ Unless the campaign brief says otherwise, deliver:
 5. a short style guide covering fonts, substitutions, colors, spacing, and unresolved approvals
 6. a concise preflight result
 
-## Nonnegotiable rules
+## Copy and verification boundaries
 
-- Preserve the supplied copy unless copy revision is explicitly requested.
-- Use approved Point files; do not redraw the logo or silently substitute fonts.
-- Keep required elements separate and editable.
-- Keep text out of illustrations.
-- Use reference images as evidence, not assumed production assets.
-- Do not carry legal text, claims, ratings, testimonials, or product facts forward from historical creative.
-- Do not promise a native Canva file or clean import without verification.
-- Do not treat a rendered preview as proof that the source remains editable.
+Preserve supplied copy unless revision is requested. A rendered preview proves appearance, not source editability; inspect the native source and any required platform import separately.
